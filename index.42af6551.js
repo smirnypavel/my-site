@@ -1,0 +1,2 @@
+const e=document.querySelector(".sidebar"),c=document.querySelectorAll("nav .nav_item");document.querySelector(".sidebar .toggle").addEventListener("click",(()=>{"sidebar"===e.className?e.classList.add("open"):e.classList.remove("open")})),c.forEach((e=>{e.addEventListener("click",(()=>{c.forEach((e=>{e.classList.remove("active")})),e.classList.add("active")}))}));
+//# sourceMappingURL=index.42af6551.js.map
