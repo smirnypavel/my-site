@@ -34,8 +34,8 @@ body {
   justify-items: center;
 }
 .sidebar .logo img {
-  //   width: 56px;
-  width: 96px;
+    width: 56px;
+//   width: 96px;
 }
 .sidebar .logo h3 {
   color: #fff;
@@ -91,4 +91,12 @@ body {
   margin: 40px 0 50px;
   background: rgba(255, 255, 255, 0.1);
   opacity: 0;
+}
+.sidebar .toggle{
+cursor: pointer;
+position: absolute;
+color: #fff;
+top: 180px;
+right: -20px;
+font-size: 28px;
 }
