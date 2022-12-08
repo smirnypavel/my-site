@@ -37,12 +37,14 @@ body {
   justify-items: center;
 }
 .sidebar .logo img {
+    
     width: 56px;
     transition: .4s;
 
 }
 .sidebar.open .logo img{
   width: 96px;
+  fill: #fff;
 }
 .sidebar .logo h3 {
   color: #fff;
