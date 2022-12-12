@@ -1,0 +1,24 @@
+.hero{
+    margin-left: 150px;
+    opacity: 0;
+    transform: translateY(16px);
+    transition: .2s;
+}
+.hero.on{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hero h1{
+    text-align: center;
+    margin-top: 30px;
+    color: aliceblue;
+}
+
+.hero p{
+    margin-top: 50px;
+    font-size: 10px;
+    font-weight: 200;
+    text-align:justify;
+    color: aliceblue;
+}

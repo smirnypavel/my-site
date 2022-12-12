@@ -17,6 +17,7 @@ body {
 
 .sidebar {
   position: relative;
+  z-index: 1;
   width: 120px;
   height: 100%;
   backdrop-filter: blur(6px);
