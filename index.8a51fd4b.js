@@ -1,2 +1,0 @@
-!function(){var e=document.querySelector(".sidebar"),c=document.querySelectorAll("nav .nav_item");document.querySelector(".sidebar .toggle").addEventListener("click",(function(){"sidebar"===e.className?e.classList.add("open"):e.classList.remove("open")})),c.forEach((function(e){e.addEventListener("click",(function(){c.forEach((function(e){e.classList.remove("active")})),e.classList.add("active")}))}))}();
-//# sourceMappingURL=index.8a51fd4b.js.map
